@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { Button } from './ui/button'
+import Link from 'next/link';
 
 function Hero() {
   return (
@@ -16,8 +17,12 @@ function Hero() {
               Discover reviews, ratings, and recommendations to help you pick your next favorite movie.
             </p>
             <div className="mt-6 flex flex-row justify-start gap-2 items-center">
-              <Button className="w-40" >Reviews</Button>
-              <Button className="w-40" variant="cinema">Dive In</Button>
+              <Button className="w-40" asChild>
+                <Link href="/reviews">Reviews</Link>
+              </Button>
+              <Button className="w-40" variant="cinema" asChild>
+                <Link href="/reviews">Dive In</Link>
+              </Button>
             </div>
           </div>
           {/* Right Image Block */}

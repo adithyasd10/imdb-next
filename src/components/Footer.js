@@ -18,8 +18,8 @@ export default function Footer() {
 
       <div className="bg-black relative">
         <div className="mx-auto max-w-6xl px-20 py-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <h1 className="text-xl font-bold tracking-wide text-white">
-            IMDB NEXT
+          <h1 className="text-xl font-bold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-gray-200 via-gray-400 to-gray-700">
+            POPCORN FLIX
           </h1>
           <div className="flex flex-col items-center text-sm text-neutral-400">
             <h2 className="text-white font-semibold">

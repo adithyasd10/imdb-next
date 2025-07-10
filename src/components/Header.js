@@ -2,6 +2,7 @@
 import React from "react";
 import { Button } from "./ui/button";
 import { ProgressiveBlur } from "./ui/progressive-blur";
+import { Link } from "lucide-react";
 
 export default function Header() {
   return (
@@ -18,8 +19,8 @@ export default function Header() {
           "
         >
           {/* Left side - Logo */}
-          <h1 className="text-white font-bold text-xl tracking-wide">
-            IMDB NEXT
+          <h1 className="font-bold text-xl tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-gray-200 via-gray-400 to-gray-700">
+            <a href="/">POPCORN FLIX</a>
           </h1>
 
           {/* Right side - Buttons */}
@@ -27,8 +28,9 @@ export default function Header() {
             <Button
               variant="cinema"
               className="text-white border-white hover:bg-white hover:text-black"
+              asChild
             >
-              Reviews
+              <a href="/about">About</a>
             </Button>
           </div>
         </div>
