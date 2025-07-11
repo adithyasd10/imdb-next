@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 import { Button } from "./ui/button";
 import { ProgressiveBlur } from "./ui/progressive-blur";
 import { Link } from "lucide-react";
@@ -19,9 +20,19 @@ export default function Header() {
           "
         >
           {/* Left side - Logo */}
-          <h1 className="font-bold text-xl tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-gray-200 via-gray-400 to-gray-700">
-            <a href="/">POPCORN FLIX</a>
-          </h1>
+          <div className="flex items-center space-x-3">
+  <Image
+    src="/logo.svg"
+    alt="Popcorn Flix Logo"
+    width={20}
+    height={20}
+    className="object-contain "
+  />
+  <span className="font-bold text-xl tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-gray-200 via-gray-400 to-gray-700">
+    <a href="/">POPCORN FLIX</a>
+  </span>
+</div>
+
 
           {/* Right side - Buttons */}
           <div className="flex items-center gap-4">
