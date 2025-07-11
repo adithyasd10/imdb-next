@@ -7,7 +7,7 @@ export default function AboutPage() {
       <div className='flex flex-col-reverse md:flex-row justify-between items-center gap-12 max-w-5xl w-full py-16'>
         {/* Text Block */}
         <div className='flex-1 flex flex-col justify-center items-start gap-6 mt-8'>
-          <h1 className='font-bold text-4xl md:text-5xl mb-2 text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-red-500 to-red-700 transition-all duration-500 hover:scale-105 hover:bg-gradient-to-r hover:from-red-800 hover:via-red-600 hover:to-red-400 cursor-pointer'>ABOUT</h1>
+          <h1 className='font-bold text-4xl md:text-5xl mb-2 text-transparent bg-clip-text bg-gradient-to-r from-red-300 via-red-400 to-red-500 transition-all duration-500 hover:scale-105 hover:bg-gradient-to-r hover:from-red-400 hover:via-red-500 hover:to-red-700 cursor-pointer'>ABOUT</h1>
           <p className='text-lg md:text-xl leading-relaxed max-w-xl text-gray-400'>
             Popcorn Flix is a modern movie review platform inspired by IMDb, designed to help you discover, rate, and discuss your favorite films. It offers a sleek, user-friendly interface for browsing movie details, reading and writing reviews, and finding recommendations tailored to your taste. Whether you're a casual viewer or a film buff, Popcorn Flix makes it easy to explore new releases, classics, and hidden gems—all in one place. Join the community and make your next movie night unforgettable!
           </p>
