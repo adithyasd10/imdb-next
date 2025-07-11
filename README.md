@@ -1,4 +1,4 @@
-# 🎬 Next.js 14 + Tailwind CSS Movie App (IMDB Clone)
+# POPCORN FLIX (IMDB Clone)
 
 This project is a **Movie App inspired by IMDB**, built using the latest technologies:
 
