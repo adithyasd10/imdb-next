@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎬 Next.js 14 + Tailwind CSS Movie App (IMDB Clone)
 
-## Getting Started
+This project is a **Movie App inspired by IMDB**, built using the latest technologies:
 
-First, run the development server:
+- **Next.js 14** (App Router, Server Components, faster builds)
+- **Tailwind CSS** for modern, utility-first styling
+- **ShadCN UI**, a powerful component library built on top of Radix UI and Tailwind CSS
+
+---
+
+## 🚧 Project Status
+
+> ⚠️ **This project is currently under development.**  
+> Features and UI are being actively built and refined.
+
+### 🔥 Preview Screenshots
+
+![IMDB Screenshot 2](https://github.com/adithyasd10/imdb-next/blob/main/public/imdb2.png)
+
+![IMDB Screenshot 1](https://github.com/adithyasd10/imdb-next/blob/main/public/imdb1.png)
+
+---
+
+## 📚 About This Project
+
+I’m building this app as part of my learning journey in:
+
+✅ Next.js 14’s new features like the App Router and layouts  
+✅ ShadCN UI — studying how to integrate elegant components and customize them for unique designs  
+✅ Tailwind CSS utility classes for responsive, dark-themed UI  
+✅ Building a real-world app structure similar to IMDB, including:
+
+- Dynamic routing for movie details
+- Review pages
+- Navigation menus
+- Progressive blurs and glassmorphism effects
+- Dark theme layouts
+- Responsive design for mobile and desktop
+
+This project is designed for **beginners** wanting to learn modern React and Next.js development with real, practical examples.
+
+---
+
+## 🚀 Getting Started
+
+Install dependencies using your favorite package manager:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# npm
+npm install
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# yarn
+yarn install
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# pnpm
+pnpm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# bun
+bun install
