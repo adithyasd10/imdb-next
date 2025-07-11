@@ -35,10 +35,10 @@ export default function Header() {
 
 
           {/* Right side - Buttons */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 px-10">
             <Button
               variant="cinema"
-              className="text-white border-white hover:bg-white hover:text-black"
+              className="text-neutral-400 border-neutral-500 hover:bg-white hover:text-black"
               asChild
             >
               <a href="/about">About</a>

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 import { ProgressiveBlur } from "@/components/ui/progressive-blur";
 
@@ -18,9 +19,18 @@ export default function Footer() {
 
       <div className="bg-black relative">
         <div className="mx-auto max-w-6xl px-20 py-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <h1 className="text-xl font-bold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-gray-200 via-gray-400 to-gray-700">
-            POPCORN FLIX
-          </h1>
+          <div className="flex items-center space-x-3">
+            <Image
+              src="/logo.svg"
+              alt="Popcorn Flix Logo"
+              width={20}
+              height={20}
+              className="object-contain "
+            />
+            <span className="font-bold text-xl tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-gray-200 via-gray-400 to-gray-700">
+              <a href="/">POPCORN FLIX</a>
+            </span>
+          </div>
           <div className="flex flex-col items-center text-sm text-neutral-400">
             <h2 className="text-white font-semibold">
               Adithya S D
