@@ -27,7 +27,7 @@ export default function Card({ result }) {
           </h2>
           <p className="flex items-center text-slate-400 text-sm">
             {result.release_date || result.first_air_date}
-            <FiThumbsUp className="h-5 w-5 ml-3 mr-1 text-amber-400" />
+            <FiThumbsUp className="h-5 w-5 ml-3 mr-1 text-emerald-400" />
             {result.vote_count}
           </p>
         </div>
