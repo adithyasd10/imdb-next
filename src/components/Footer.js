@@ -2,6 +2,8 @@
 import Image from "next/image";
 import React from "react";
 import { ProgressiveBlur } from "@/components/ui/progressive-blur";
+import Link from "next/link";
+
 
 export default function Footer() {
   return (
@@ -28,7 +30,7 @@ export default function Footer() {
               className="object-contain "
             />
             <span className="font-bold text-xl tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-gray-200 via-gray-400 to-gray-700">
-              <a href="/">POPCORN FLIX</a>
+              <Link href="/">POPCORN FLIX</Link>
             </span>
           </div>
           <div className="flex flex-col items-center text-sm text-neutral-400">
