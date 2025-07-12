@@ -18,7 +18,7 @@ function Hero() {
                 sm:text-5xl
                 md:text-6xl
                 xl:text-7xl
-                2xl:text-8xl
+                2xl:text-7xl
                 font-bold
                 tracking-wider
                 text-transparent
@@ -37,7 +37,7 @@ function Hero() {
               Lights. Camera. Popcorn Flix!
             </h1>
 
-            <p className="mt-6 sm:mt-8 max-w-2xl text-pretty text-base sm:text-lg xl:text-xl 2xl:text-2xl">
+            <p className="mt-6 sm:mt-8 max-w-2xl text-pretty text-base sm:text-lg xl:text-xl 2xl:text-xl">
               Discover reviews, ratings, and recommendations to help you pick your next favorite movie.
             </p>
 
